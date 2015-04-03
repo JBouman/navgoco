@@ -1,0 +1,30 @@
+{
+  "name": "Navgoco",
+  "description": "Navgoco is a simple JQuery plugin which turns a nested unordered list of links into a beautiful vertical multi-level slide navigation, with ability to preserve expanded submenus between sessions by using cookies and optionally act as an accordion menu.",
+  "version": "0.2.1",
+  "keywords": [
+    "navgoco",
+    "menu",
+    "navigation",
+    "slide",
+    "cookies",
+    "accordion"
+  ],
+  "homepage": "http://www.komposta.net/article/navgoco",
+  "main": [
+    "src/jquery.navgoco.css",
+    "src/jquery.navgoco.js",
+    "src/jquery.cookie.js"
+  ],
+  "ignore": [
+    ".*",
+    "CONTRIBUTING.md",
+    "LICENSE-BDS",
+    "Grunfile.js",
+    "test",
+    "demo"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.9.0"
+  }
+}
